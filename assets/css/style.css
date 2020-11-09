@@ -1,0 +1,47 @@
+@import "sections/header.css";
+@import "sections/why-choose-us.css";
+
+:root {
+    --header-font: "Montserrat";
+    --header-font-md: "Montserrat Medium";
+    --contain-font: "Arimo";
+    --primary-color: rgb(74, 131, 251);
+    --contain-color: rgb(116, 132, 148);
+    --title-color: rgb(7, 30, 87);
+    --green-color: rgb(45, 202, 115);
+    --footer-background-color: rgb(38, 50, 56);
+}
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    /* font-size: 100%; */
+    box-sizing: border-box;
+    font-family: var(--contain-font);
+}
+.header-f {
+    font-family: var(--header-font);
+}
+.pad-mar-0{
+    margin: 0;
+    padding: 0;
+}
+/* ____________________________ */
+/* 
+header font: glory > mons
+content font: muli > arimo
+
+*/
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
