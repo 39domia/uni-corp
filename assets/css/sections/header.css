@@ -29,18 +29,9 @@
     justify-content: center;
 }
 
-.download-btn {
-    border-radius: 5px;
-    background-color: rgb(74, 131, 251);
-    width: 180px;
-    height: 54px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: capitalize;
-    font-size: 15px;
-    font-family: var(--header-font-md);
+.download-btn-blue {
+    background-color: var(--primary-color);
+    
 }
 
 .header__wrapper {
@@ -73,7 +64,7 @@
     font-size: 85px;
 }
 
-.sub-title {
+.header__sub-title {
     font-size: 22px;
     font-family: var(--contain-font);
     color: var(--contain-color);

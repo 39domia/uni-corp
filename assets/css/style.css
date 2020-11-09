@@ -1,5 +1,6 @@
 @import "sections/header.css";
 @import "sections/why-choose-us.css";
+@import "sections/try-it.css";
 
 :root {
     --header-font: "Montserrat";
@@ -11,6 +12,7 @@
     --green-color: rgb(45, 202, 115);
     --footer-background-color: rgb(38, 50, 56);
 }
+
 /* Reset CSS */
 * {
     padding: 0;
@@ -20,13 +22,16 @@
     box-sizing: border-box;
     font-family: var(--contain-font);
 }
+
 .header-f {
     font-family: var(--header-font);
 }
-.pad-mar-0{
+
+.pad-mar-0 {
     margin: 0;
     padding: 0;
 }
+
 /* ____________________________ */
 /* 
 header font: glory > mons
@@ -42,6 +47,47 @@ content font: muli > arimo
 li {
     list-style: none;
 }
+
 a {
     text-decoration: none;
+}
+
+.tag-title {
+    font-size: 14px;
+    font-family: var(--header-font);
+    color: var(--primary-color);
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.big-title {
+    font-size: 42px;
+    font-family: var(--header-font-md);
+    color: var(--title-color);
+    line-height: 1.2;
+    margin: 35px 0 50px 0;
+}
+
+.sub-title {
+    font-size: 16px;
+    color: var(--contain-color);
+    line-height: 1.625;
+}
+
+.flaticon::before {
+    margin: 0;
+    font-size: 30px;
+}
+
+.btn {
+    border-radius: 5px;
+    width: 180px;
+    height: 54px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-family: var(--header-font-md);
 }
