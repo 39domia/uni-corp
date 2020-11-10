@@ -1,0 +1,48 @@
+.feature__row {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 100px;
+}
+
+.feature__phone-demo>img {
+    max-width: 585px;
+    position: relative;
+    top: -65px;
+}
+
+.feature__accordion {
+    background-color: white;
+    font-size: 16px;
+    font-family: var(--header-font-md);
+    color: var(--title-color);
+    line-height: 1.2;
+    border-radius: 4px;
+    box-shadow: 0px 2px 20px 0px rgba(74, 131, 251, 0.1);
+    cursor: pointer;
+    padding: 20px;
+    border: none;
+    margin-bottom: 20px;
+    outline: none;
+    transition: 0.4s;
+}
+
+.feature__accordion--active,
+.feature__accordion:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.feature__accordion__panel {
+    display: none;
+    overflow: hidden;
+    margin: 45px 0;
+}
+
+.feature__description>.sub-title {
+    margin-bottom: 60px;
+}
+.feature .dot {
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
