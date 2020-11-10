@@ -25,16 +25,12 @@
 }
 
 .wcu__icon {
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 90px;
     height: 90px;
     border-radius: 50%;
-}
-
-.wcu__icon_item {
-    position: absolute;
-    top: 35%;
-    left: 35%;
 }
 
 .wcu__feature-box--title {
@@ -46,6 +42,7 @@
     font-size: 16px !important;
     margin-bottom: 50px;
 }
+
 .wcu__feature-box--ps {
     font-size: 16px;
     color: rgb(119, 119, 119);
@@ -62,20 +59,25 @@
 .lifht-slate-blue {
     background-color: rgb(234, 240, 254);
 }
-.lifht-slate-blue .flaticon::before{
+
+.lifht-slate-blue .flaticon::before {
     color: rgb(88, 129, 233);
 
 }
+
 .radiant-yellow {
     background-color: rgb(255, 244, 223);
 
 }
-.radiant-yellow .flaticon::before{
+
+.radiant-yellow .flaticon::before {
     color: rgb(237, 185, 95);
 }
+
 .wintegreen {
     background-color: rgb(229, 250, 245);
 }
+
 .wintegreen .flaticon::before {
     color: rgb(69, 210, 167);
 }

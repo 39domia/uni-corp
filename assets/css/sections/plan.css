@@ -1,0 +1,168 @@
+#plan {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.plan__container .row {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.plan__switch {
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan__container .row {
+    text-align: center;
+}
+
+.plan__switch span:first-child {
+    color: var(--contain-color);
+}
+
+.plan__switch .switch {
+    margin: 0 20px;
+}
+
+.plan__container .row div:last-child {
+    margin-top: 20px;
+    margin-bottom: 80px;
+    color: rgb(116, 132, 148);
+}
+
+.plan-advanced__row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0 30px;
+    text-align: center;
+}
+
+.plan-type {
+    font-size: 22px;
+    font-family: var(--header-font-md);
+    line-height: 2.5;
+    text-align: center;
+}
+
+.plan-des {
+    font-size: 14px;
+    color: var(--contain-color);
+    line-height: 1.5;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.free .plan-time::before,
+.com .plan-time::before {
+    content: "$";
+    font-size: 20px;
+    color: var(--contain-color);
+    font-family: var(--header-font-md);
+    position: relative;
+    top: -20px;
+    left: -20px;
+
+}
+
+.free .plan-time,
+.com .plan-time
+    {
+    font-size: 52px;
+    font-family: var(--header-font-md);
+}
+
+.free .plan-time::after,
+.com .plan-time::after {
+    content: "/month";
+    font-size: 14px;
+    color: var(--contain-color);
+    padding-left: 10px;
+}
+
+.plan-benefit ul li {
+    font-size: 16px;
+    color: var(--title-color);
+    line-height: 2.5;
+    font-weight: bold;
+}
+
+
+.plan-advanced__item {
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 20px 70px 0px rgba(209, 209, 209, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.plan-benefit {
+    margin: 50px 0;
+    
+}
+
+.free .plan-type {
+    color: var(--green-color);
+    
+}
+
+.pro .plan-type,
+.com .plan-type {
+    color: var(--primary-color);
+    
+}
+.free .plan-benefit ul li:nth-child(1n+ 3) {
+    color: var(--contain-color);
+    font-weight: normal;
+
+}
+.pro .plan-benefit ul li:nth-child(1n+5) {
+    color: var(--contain-color) ;
+    font-weight: normal ;
+    
+}
+.pro .plan-time::before {
+    content: "1%";
+    font-size: 20px;
+    color: var(--contain-color);
+    font-family: var(--header-font-md);
+    position: relative;
+    top: -20px;
+    left: -20px;
+
+}
+
+.pro .plan-time {
+    font-size: 52px;
+    font-family: var(--header-font-md);
+}
+
+.pro .plan-time::after {
+    content: "/card change";
+    font-size: 14px;
+    color: var(--contain-color);
+    padding-left: 10px;
+}
+.pro .btn,
+.com .btn {
+    border: 2px var(--green-color) solid;
+    color: var(--green-color);
+    background-color: white;
+}
+.wanna-join {
+    padding-top: 80px;
+    color: var(--contain-color);
+    font-size: 16px;
+    line-height: 1.625;
+    
+}
