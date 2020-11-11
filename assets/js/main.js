@@ -2,7 +2,7 @@ let a = document.getElementsByTagName("a");
 
 function init() {
     for (let item of a) {
-        if (item.href == "https://39domia.github.io/uni-corp.github.io/" || item.href == "")
+        if (item.href == "https://39domia.github.io/uni-corp/" || item.href == "")
             item.href = "javascript:;"
     }
 }
