@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 09/11/2020 06:58
+  	Creation date: 11/11/2020 08:50
   	*/
 
 @font-face {
@@ -42,3 +42,5 @@ margin-left: 20px;
 .flaticon-twitter:before { content: "\f109"; }
 .flaticon-facebook-logotype:before { content: "\f10a"; }
 .flaticon-instagram:before { content: "\f10b"; }
+.flaticon-star:before { content: "\f10c"; }
+.flaticon-send:before { content: "\f10d"; }

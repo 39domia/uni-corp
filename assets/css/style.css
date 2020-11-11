@@ -4,6 +4,8 @@
 @import "sections/feature.css";
 @import "sections/adv.css";
 @import "sections/plan.css";
+@import "sections/testimonial.css";
+@import "sections/footer.css";
 
 :root {
     --header-font: "Montserrat";
@@ -29,13 +31,15 @@
 .header-f {
     font-family: var(--header-font);
 }
-
+.green-color {
+    color: var(--green-color);
+}
 .pad-mar-0 {
     margin: 0;
     padding: 0;
 }
 .pri-color {
-    color: var(--primary-color);
+    color: var(--primary-color) !important;
 }
 /* ____________________________ */
 /* 
@@ -96,6 +100,28 @@ a {
     text-transform: capitalize;
     font-size: 15px;
     font-family: var(--header-font-md);
+}
+
+.new-icon {
+    position: relative;
+    border-radius: 2px;
+    background-color: var(--primary-color);
+    display: inline-flex;
+    width: 36px;
+    height: 24px;
+    justify-content: center;
+    text-align: center;
+    top: 8px;
+    margin-left: 4px;
+}
+.new-icon>p {
+    position: absolute;
+    color: white;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.discount-icon {
+    background-color: var(--green-color);
 }
 
 /* Swtich  */

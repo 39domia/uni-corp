@@ -1,0 +1,113 @@
+#footer {
+    background-color: rgb(38, 50, 56);
+    color: white;
+}
+
+.footer__row {
+    padding-top: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-bottom: 90px;
+
+}
+
+.footer__col ul li {
+    line-height: 2.571;
+}
+
+.footer__col ul li:last-child {
+    display: flex;
+
+}
+
+.footer__col ul li:last-child div {
+    margin-right: 10px;
+
+}
+
+.footer__col__uni-corp {
+    grid-column: 1 / span 3;
+
+}
+
+.footer__col__uni-corp ul li:last-child {
+    color: var(--contain-color);
+
+}
+
+.footer__col>p:first-child {
+    font-size: 14px;
+    font-family: var(--header-font-md);
+    text-transform: uppercase;
+    line-height: 2.571;
+    margin-bottom: 20px;
+}
+
+.footer__col__useful-link {
+    grid-column: 4 / span 2;
+}
+
+.footer__col__useful-link ul li:nth-child(1n+1),
+.footer__col__products ul li:nth-child(1n+1),
+.footer__col__resources ul li:nth-child(1n+1) {
+    color: var(--contain-color);
+}
+
+.footer__col__products {
+    grid-column: 6 / span 2;
+}
+
+.footer__col__resources {
+    grid-column: 8 / span 2;
+}
+
+.footer__col__newsletter {
+    grid-column: 10 /span 3;
+}
+
+.footer__col__newsletter p:nth-child(2) {
+    line-height: 2.571;
+    padding-bottom: 15px;
+}
+
+.footer__col__newsletter__form {
+    display: flex;
+}
+
+.footer__col__newsletter__form>.btn {
+    width: 100%;
+    max-width: 55px;
+    height: 55px;
+    border-radius: 0%;
+}
+
+.footer__col__newsletter__email--input {
+    height: 55px;
+    font-size: 14px;
+    padding-left: 20px;
+    width: 100%;
+    font-style: italic;
+
+
+}
+.footer__col__newsletter__form .flaticon::before {
+    font-size: 20px;
+
+}
+#footer .bottom-bar {
+    color: var(--contain-color);
+    height: 66px;
+    border-top: 1px solid var(--contain-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer .bottom-bar .bottom-bar__terms {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+#footer .bottom-bar .bottom-bar__terms p{
+    padding-left: 20px;
+}
