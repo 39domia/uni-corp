@@ -6,6 +6,8 @@
 @import "sections/plan.css";
 @import "sections/testimonial.css";
 @import "sections/footer.css";
+@import "responsive.css";
+
 
 :root {
     --header-font: "Montserrat";

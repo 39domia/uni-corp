@@ -35,12 +35,13 @@
 .feature__accordion__panel {
     display: none;
     overflow: hidden;
-    margin: 45px 0;
+    margin: 45px 20px;
 }
 
 .feature__description>.sub-title {
     margin-bottom: 60px;
 }
+
 .feature .dot {
     text-align: center;
     letter-spacing: 5px;
