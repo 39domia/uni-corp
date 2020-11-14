@@ -1,92 +1,170 @@
-.top-logo>img {
-
-    width: 169px;
-    height: 28px;
-
+.top-logo > img {
+  width: 169px;
+  height: 28px;
 }
 
 .header-row {
-    height: 100px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: space-between;
-    align-items: center;
+  height: 100px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.nav>li {
-    margin-right: 30px;
+.nav > li {
+  margin-right: 30px;
 }
 
-.nav>li,
+.nav > li,
 .icon {
-    display: inline;
+  display: inline;
 }
 
 .nav-icon-pc {
-    width: 600px;
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: center;
+  width: 600px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
 }
 
 .download-btn-blue {
-    background-color: var(--primary-color);
-    
+  background-color: var(--primary-color);
 }
 
 #header {
-    height: 120vh;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+  height: 120vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .big-text {
-    font-weight: bold;
-    color: var(--primary-color);
+  font-weight: bold;
+  color: var(--primary-color);
 }
 
-.header__icon>div::before {
-    margin: 0 10px 0 0;
+.header__icon > div::before {
+  margin: 0 10px 0 0;
 }
 
-.nav>li>a {
-    color: var(--title-color);
-    font-family: var(--header-font-md);
-    font-size: 15px;
-    line-height: 1.2;
+.nav > li > a {
+  color: var(--title-color);
+  font-family: var(--header-font-md);
+  font-size: 15px;
+  line-height: 1.2;
 }
 
 .font-size-90 {
-    font-size: 85px;
+  font-size: 85px;
 }
 
 .header__sub-title {
-    font-size: 22px;
-    font-family: var(--contain-font);
-    color: var(--contain-color);
-    line-height: 1.2;
-    margin: 30px 0 90px 0;
+  font-size: 22px;
+  font-family: var(--contain-font);
+  color: var(--contain-color);
+  line-height: 1.2;
+  margin: 30px 0 90px 0;
 }
 
 .header__container {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .down-arrow {
-    color: var(--primary-color);
-    display: flex;
-    justify-content: center;
+  color: var(--primary-color);
+  display: flex;
+  justify-content: center;
 }
-.index-app-btn>a {
-    margin-right: 30px;
+.index-app-btn > a {
+  margin-right: 30px;
 }
 .header__navbar-icon {
-    display: none;
+  display: none;
+}
+.header__nav-overlay {
+  display: none;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  animation: fadeIn linear 0.2s;
+}
+.header__nav-table {
+  /* display: none; */
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  width: 100%;
+  max-width: 320px;
+  transform: translateX(100%);
+  opacity: 0;
+  transition: transform linear 0.3s, opacity linear 0.3s;
+}
+.header__nav-table-list {
+  color: black;
+  font-size: 1.4rem;
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-gap: 10px 20px;
+  padding: 20px;
+}
+.header__nav-table-list li {
+  grid-column: 1/4;
+}
+.header__nav-table-list li:first-child {
+  height: 3em;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+.header__nav-table-list li:first-child i {
+  font-size: 2em;
+}
+.header__nav-table-list label,
+.header__nav-table-list i {
+  max-width: 40px;
+  width: 100%;
+  color: var(--primary-color);
+}
+.header__nav-table-list label {
+  font-size: 2em;
+}
+
+.header__nav-table-list li a {
+  color: var(--title-color);
+}
+#header__nav-checkbox {
+  display: none;
+}
+#header__nav-checkbox:checked ~ .header__nav-overlay {
+  display: block;
+}
+#header__nav-checkbox:checked ~ .header__nav-table {
+  opacity: 1;
+  transform: translateX(0);
+}
+.header__nav-menu {
+  display: none;
+}
+.header__nav-table-list .btn {
+  display: none;
+  margin-top: 20px;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

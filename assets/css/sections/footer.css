@@ -24,6 +24,7 @@
 
 .footer__col__uni-corp {
   grid-column: 1 / span 3;
+
 }
 
 .footer__col__uni-corp ul li:last-child {
@@ -88,7 +89,7 @@
 }
 #footer .bottom-bar {
   color: var(--contain-color);
-  height: 66px;
+  padding: 30px 0;
   border-top: 1px solid var(--contain-color);
   display: flex;
   justify-content: space-between;

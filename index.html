@@ -1,501 +1,590 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-        href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="assets/vendors/flaticon/flaticon.css">
-    <link rel="stylesheet" href="assets/vendors/fontawesome-free-5.15.1/css/fontawesome.min.css">
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/vendors/flaticon/flaticon.css" />
+    <link
+      rel="stylesheet"
+      href="assets/vendors/fontawesome-free-5.15.1/css/all.css"
+    />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Uni Corp</title>
-</head>
+  </head>
 
-<body>
-    <header id="header" style="background-image: url(assets/image/header/bg.jpg);">
-        <div class="container header__container">
-            <div class="row header-row">
-                <div class="top-logo">
-                    <img src="assets/image/header/logo.png" alt="uni corp">
-                </div>
-                <div class="nav-icon-pc">
-                    <ul class="nav">
-                        <li><a href="">Home</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Services</a></li>
-                        <li><a href="">Work</a></li>
-                        <li><a href="">Pricing</a></li>
-                        <li><a href="">Blog</a></li>
-                    </ul>
-                    <div class="header__icon">
-                        <div class="icon flaticon-shopping-cart">
-
-                        </div>
-                        <div class="icon flaticon-loupe">
-                        </div>
-
-                    </div>
-                </div>
-                <a class="download-btn-blue btn">
-                    <div class="">download now</div>
-                </a>
-                <!-- <div class="header__navbar-icon"> -->
-
-                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14 header__navbar-icon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>
-                <!-- </div> -->
+  <body>
+    <header
+      id="header"
+      style="background-image: url(assets/image/header/bg.jpg)"
+    >
+      <div class="container header__container">
+        <div class="row header-row">
+          <div class="top-logo">
+            <img src="assets/image/header/logo.png" alt="uni corp" />
+          </div>
+          <div class="nav-icon-pc">
+            <ul class="nav">
+              <li><a href="">Home</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Services</a></li>
+              <li><a href="">Work</a></li>
+              <li><a href="">Pricing</a></li>
+              <li><a href="">Blog</a></li>
+            </ul>
+            <div class="header__icon">
+              <div class="icon flaticon-shopping-cart"></div>
+              <div class="icon flaticon-loupe"></div>
             </div>
-            <div class="header-slider">
-                <div class="container">
-                    <article class="title col-6">
-                        <div class="header__big-title font-size-90"><span class="big-text">Finance</span> Tracker,
-                            </br>Budget
-                            <span class="big-text">Planner.</span></div>
-                        <div class="header__sub-title">Where finance, sales and operations can work together.</div>
-                        <div class="index-app-btn">
-                            <a href=""><img src="assets/image/header/android-btn.jpg" alt=""></a>
-                            <a href=""><img src="assets/image/header/ios-btn.jpg" alt=""></a>
+          </div>
+          <a class="download-btn-blue btn">
+            <div class="">download now</div>
+          </a>
 
-                        </div>
+          <label
+            for="header__nav-checkbox"
+            class="header__nav-menu fas fa-bars"
+          ></label>
+          <input type="checkbox" name="" id="header__nav-checkbox" />
+          <label for="header__nav-checkbox" class="header__nav-overlay"></label>
 
-                </div>
-            </div>
-            <div class="container down-arrow pad-mar-0">
-                <div class="flaticon-down-arrow "></div>
-            </div>
+          <div class="header__nav-table">
+            <ul class="header__nav-table-list">
+              <li>
+                <a href=""><img src="assets/image/header/logo.png" alt="" /></a
+                ><label for="header__nav-checkbox" class="fas fa-times"></label>
+              </li>
+              <li><i class="fas fa-home"></i><a href="">Home</a></li>
+              <li><i class="fas fa-info-circle"></i><a href="">About</a></li>
+              <li><i class="fas fa-cog"></i><a href="">Services</a></li>
+              <li><i class="fas fa-briefcase"></i><a href="">Work</a></li>
+              <li><i class="fas fa-dollar-sign"></i><a href="">Pricing</a></li>
+              <li><i class="fab fa-blogger-b"></i><a href="">Blog</a></li>
+              <a class="download-btn-blue btn">
+                <div class="">download now</div>
+              </a>
+            </ul>
+          </div>
         </div>
-
+        <div class="header-slider">
+          <div class="container">
+            <article class="title col-6">
+              <div class="header__big-title font-size-90">
+                <span class="big-text">Finance</span> Tracker, <br />Budget
+                <span class="big-text">Planner.</span>
+              </div>
+              <div class="header__sub-title">
+                Where finance, sales and operations can work together.
+              </div>
+              <div class="index-app-btn">
+                <a href=""
+                  ><img src="assets/image/header/android-btn.jpg" alt=""
+                /></a>
+                <a href=""
+                  ><img src="assets/image/header/ios-btn.jpg" alt=""
+                /></a>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="container down-arrow pad-mar-0">
+          <div class="flaticon-down-arrow"></div>
+        </div>
+      </div>
     </header>
     <section class="why-choose-us">
-        <div class="container">
-            <div class="row wcu__row--title">
-                <div class="wcu__title">
-                    <div class="tag-title">
-                        It’s all coming together
-                    </div>
-                    <div class="title">
-                        <div class="big-title">
-                            We help you manage your finances in one place.
-                        </div>
-                        <div class="sub-title">
-                            We bring together everything from balances and bills to your credit score and
-                            more. It’s your financial life, in one place that’s easy to understand.
-                        </div>
-                    </div>
-                </div>
-                <div class="wcu__arrow">
-                    <div class="flaticon-left-arrow"></div>
-                    <div class="flaticon-right-arrow"></div>
-                </div>
+      <div class="container">
+        <div class="row wcu__row--title">
+          <div class="wcu__title">
+            <div class="tag-title">It’s all coming together</div>
+            <div class="title">
+              <div class="big-title">
+                We help you manage your finances in one place.
+              </div>
+              <div class="sub-title">
+                We bring together everything from balances and bills to your
+                credit score and more. It’s your financial life, in one place
+                that’s easy to understand.
+              </div>
             </div>
-            <div class="row wcu__row__feature-item">
-                <div class="wcu__feature-box">
-                    <div class="wcu__icon lifht-slate-blue">
-                        <div class="wcu__icon_item">
-                            <div class="flaticon flaticon-database"></div>
-                        </div>
-                    </div>
-                    <div class="wcu__feature-box--title big-title">
-                        All-in-one finances
-                    </div>
-                    <div class="wcu__feature-box--sub-title sub-title">
-                        We bring all of your money to one place, from balances and bills to credit score and more.
-                    </div>
-                    <a class="wcu__feature-box--ps">
-                        Learn More
-                    </a>
-                </div>
-                <div class="wcu__feature-box">
-                    <div class="wcu__icon radiant-yellow">
-                        <div class="wcu__icon_item">
-                            <div class="flaticon flaticon-box"></div>
-                        </div>
-                    </div>
-                    <div class="wcu__feature-box--title big-title">
-                        All-in-one finances
-                    </div>
-                    <div class="wcu__feature-box--sub-title sub-title">
-                        We bring all of your money to one place, from balances and bills to credit score and more.
-                    </div>
-                    <a class="wcu__feature-box--ps">
-                        Learn More
-                    </a>
-                </div>
-                <div class="wcu__feature-box">
-                    <div class="wcu__icon wintegreen">
-                        <div class="wcu__icon_item">
-                            <div class="flaticon flaticon-calendar"></div>
-                        </div>
-                    </div>
-                    <div class="wcu__feature-box--title big-title">
-                        All-in-one finances
-                    </div>
-                    <div class="wcu__feature-box--sub-title sub-title">
-                        We bring all of your money to one place, from balances and bills to credit score and more.
-                    </div>
-                    <a class="wcu__feature-box--ps">
-                        Learn More
-                    </a>
-                </div>
-
-
+          </div>
+          <div class="wcu__arrow">
+            <div class="flaticon-left-arrow"></div>
+            <div class="flaticon-right-arrow"></div>
+          </div>
+        </div>
+        <div class="row wcu__row__feature-item">
+          <div class="wcu__feature-box">
+            <div class="wcu__icon light-slate-blue">
+              <div class="wcu__icon_item">
+                <div class="flaticon flaticon-database"></div>
+              </div>
             </div>
+            <div class="wcu__feature-box--title big-title">
+              All-in-one finances
+            </div>
+            <div class="wcu__feature-box--sub-title sub-title">
+              We bring all of your money to one place, from balances and bills
+              to credit score and more.
+            </div>
+            <a class="wcu__feature-box--ps"> Learn More </a>
+          </div>
+          <div class="wcu__feature-box">
+            <div class="wcu__icon radiant-yellow">
+              <div class="wcu__icon_item">
+                <div class="flaticon flaticon-box"></div>
+              </div>
+            </div>
+            <div class="wcu__feature-box--title big-title">
+              All-in-one finances
+            </div>
+            <div class="wcu__feature-box--sub-title sub-title">
+              We bring all of your money to one place, from balances and bills
+              to credit score and more.
+            </div>
+            <a class="wcu__feature-box--ps"> Learn More </a>
+          </div>
+          <div class="wcu__feature-box">
+            <div class="wcu__icon wintegreen">
+              <div class="wcu__icon_item">
+                <div class="flaticon flaticon-calendar"></div>
+              </div>
+            </div>
+            <div class="wcu__feature-box--title big-title">
+              All-in-one finances
+            </div>
+            <div class="wcu__feature-box--sub-title sub-title">
+              We bring all of your money to one place, from balances and bills
+              to credit score and more.
+            </div>
+            <a class="wcu__feature-box--ps"> Learn More </a>
+          </div>
         </div>
-        </div>
-
+      </div>
     </section>
-    <section class="try-it" style="background-image: url(assets/image/content/sub-bg.jpg);">
-        <div class="try-it__container container">
-            <div class="try-it__row row">
-                <div class="try-it__title big-title">
-                    Trying to manage your bills and budget?
-                </div>
-                <div class="try-it__sub-title sub-title">
-                    Stop using spreadsheets and start tracking your money with
-                    the best expense tracker apps available.
-                </div>
-                <a class="download-btn-green btn">
-                    <div class="">get started</div>
-                </a>
-            </div>
+    <section
+      class="try-it"
+      style="background-image: url(assets/image/content/sub-bg.jpg)"
+    >
+      <div class="try-it__container container">
+        <div class="try-it__row row">
+          <div class="try-it__title big-title">
+            Trying to manage your bills and budget?
+          </div>
+          <div class="try-it__sub-title sub-title">
+            Stop using spreadsheets and start tracking your money with the best
+            expense tracker apps available.
+          </div>
+          <a class="download-btn-green btn">
+            <div class="">get started</div>
+          </a>
         </div>
+      </div>
     </section>
     <section class="feature">
-        <div class="feature__container container">
-            <div class="feature__row row">
-                <div class="feature__phone-demo"><img src="assets/image/content/phone.png" alt=""></div>
-                <div class="feature__description">
-                    <div class="tag-title">All your money in one place</div>
-                    <div class="big-title">
-                        Have perfect control over all your cash expenses
-                    </div>
-                    <div class="sub-title content">We help you create a monthly budget so you can achieve your money
-                        goals. Say goodbye to money stress and hello to confidence in your financial future. Create your
-                        first budget in less than 10 minutes.</div>
-                    <div class="feature__accordion">
-                        We bring all of your money to one place
-                    </div>
-                    <div class="feature__accordion__panel">
-                        We bring together all of your accounts, bills and more, so you can conveniently manage your
-                        finances from one dashboard. See all of your bills and money at a glance.
-                    </div>
-                    <div class="feature__accordion">
-                        Create budgets easily with tips tailored to you
-                    </div>
-                    <div class="feature__accordion__panel">
-                        We bring together all of your accounts, bills and more, so you can conveniently manage your
-                        finances from one dashboard. See all of your bills and money at a glance.
-                    </div>
-                    <div class="feature__accordion">
-                        Never miss a payment with alerts when bills are due
-                    </div>
-                    <div class="feature__accordion__panel">
-                        We bring together all of your accounts, bills and more, so you can conveniently manage your
-                        finances from one dashboard. See all of your bills and money at a glance.
-                    </div>
-                    <div class="feature__accordion">
-                        Sign in securely with your unique 4-digit code
-                    </div>
-                    <div class="feature__accordion__panel">
-                        We bring together all of your accounts, bills and more, so you can conveniently manage your
-                        finances from one dashboard. See all of your bills and money at a glance.
-                    </div>
-                </div>
+      <div class="feature__container container">
+        <div class="feature__row row">
+          <div class="feature__phone-demo">
+            <img src="assets/image/content/phone.png" alt="" />
+          </div>
+          <div class="feature__description">
+            <div class="tag-title">All your money in one place</div>
+            <div class="big-title">
+              Have perfect control over all your cash expenses
             </div>
-            <div class="dot"><span>. . .</span></div>
-
+            <div class="sub-title content">
+              We help you create a monthly budget so you can achieve your money
+              goals. Say goodbye to money stress and hello to confidence in your
+              financial future. Create your first budget in less than 10
+              minutes.
+            </div>
+            <div class="feature__accordion">
+              We bring all of your money to one place
+            </div>
+            <div class="feature__accordion__panel">
+              We bring together all of your accounts, bills and more, so you can
+              conveniently manage your finances from one dashboard. See all of
+              your bills and money at a glance.
+            </div>
+            <div class="feature__accordion">
+              Create budgets easily with tips tailored to you
+            </div>
+            <div class="feature__accordion__panel">
+              We bring together all of your accounts, bills and more, so you can
+              conveniently manage your finances from one dashboard. See all of
+              your bills and money at a glance.
+            </div>
+            <div class="feature__accordion">
+              Never miss a payment with alerts when bills are due
+            </div>
+            <div class="feature__accordion__panel">
+              We bring together all of your accounts, bills and more, so you can
+              conveniently manage your finances from one dashboard. See all of
+              your bills and money at a glance.
+            </div>
+            <div class="feature__accordion">
+              Sign in securely with your unique 4-digit code
+            </div>
+            <div class="feature__accordion__panel">
+              We bring together all of your accounts, bills and more, so you can
+              conveniently manage your finances from one dashboard. See all of
+              your bills and money at a glance.
+            </div>
+          </div>
         </div>
+        <div class="dot"><span>. . .</span></div>
+      </div>
     </section>
-    <section class="adv" style="background-image: url(assets/image/content/video-bg.jpg);">
-        <div class="container">
-            <div class="adv__video-demo">
-                <img src="assets/image/content/video-res.png" alt="">
-            </div>
-            <div class="adv__description">
-                <div class="tag-title">
-                    Intuitive features, powerful results
-                </div>
-                <div class="big-title">
-                    We’re committed to keeping your data secure
-                </div>
-                <div class="sub-title">
-                    From budgets and bills to free credit score and more, you’ll discover
-                    the effortless way to stay on top of it all. Sign up Free!
-                </div>
-                <div class="btn download-btn-blue">sign up now</div>
-            </div>
-            <div class="">
-
-            </div>
+    <section
+      class="adv"
+      style="background-image: url(assets/image/content/video-bg.jpg)"
+    >
+      <div class="container">
+        <div class="adv__video-demo">
+          <img src="assets/image/content/video-res.png" alt="" />
         </div>
+        <div class="adv__description">
+          <div class="tag-title">Intuitive features, powerful results</div>
+          <div class="big-title">
+            We’re committed to keeping your data secure
+          </div>
+          <div class="sub-title">
+            From budgets and bills to free credit score and more, you’ll
+            discover the effortless way to stay on top of it all. Sign up Free!
+          </div>
+          <div class="btn download-btn-blue">sign up now</div>
+        </div>
+        <div class=""></div>
+      </div>
     </section>
-    <section id="plan" style="background-image: url(assets/image/content/sub-bg.jpg);">
-        <div class="container plan__container">
-            <div class="row">
-                <div class="tag-title">We have different plans for you</div>
-                <div class="big-title">It's free! Start now keeping track of your finances</div>
-                <div class="plan__switch header-f">
-                    <span>Billed Monthly</span>
-                    <label class="switch">
-                        <input type="checkbox" checked>
-                        <span class="slider round"></span>
-                    </label>
-                    <span>Billed Yearly</span>
-                </div>
-                <div>(Save up to 40%)</div>
-            </div>
-            <div class="plan-advanced__row">
-                <div class="plan-advanced__item free">
-                    <div class="plan-type ">Free</div>
-                    <div class="plan-des">Pricing built for businesses of all sizes.</div>
-                    <div class="plan-time">0</div>
-                    <div class="plan-benefit">
-                        <ul>
-                            <li>Unlimited transactions</li>
-                            <li>Expenses and Income Charts</li>
-                            <li>Create categories for expenses</li>
-                            <li>Accounts management</li>
-                            <li>Income management</li>
-                            <li>Alerts by email</li>
-                        </ul>
-                    </div>
-                    <a class="download-btn-green btn">Purchase Now</a>
-                </div>
-                <div class="plan-advanced__item pro">
-                    <div class="plan-type ">Professional</div>
-                    <div class="plan-des">Pricing built for businesses of all sizes.</div>
-                    <div class="plan-time">30¢</div>
-                    <div class="plan-benefit">
-                        <ul>
-                            <li>Unlimited transactions</li>
-                            <li>Expenses and Income Charts</li>
-                            <li>Create categories for expenses</li>
-                            <li>Accounts management</li>
-                            <li>Income management</li>
-                            <li>Alerts by email</li>
-                        </ul>
-                    </div>
-                    <a class="download-btn-green btn">Purchase Now</a>
-                </div>
-                <div class="plan-advanced__item com">
-                    <div class="plan-type ">Company</div>
-                    <div class="plan-des">Pricing built for businesses of all sizes.</div>
-                    <div class="plan-time">499</div>
-                    <div class="plan-benefit">
-                        <ul>
-                            <li>Unlimited transactions</li>
-                            <li>Expenses and Income Charts</li>
-                            <li>Create categories for expenses</li>
-                            <li>Accounts management</li>
-                            <li>Income management</li>
-                            <li>Alerts by email</li>
-                        </ul>
-                    </div>
-                    <a class="download-btn-green btn">Purchase Now</a>
-                </div>
-
-            </div>
-            <div class="wanna-join row">
-                Ready to get started? <a class="pri-color">Get in touch</a> or <a class="pri-color" href="">create
-                    an account.</a></br>
-                To speak with a success expert, call (+1) 212-946-2707.
-            </div>
+    <section
+      id="plan"
+      style="background-image: url(assets/image/content/sub-bg.jpg)"
+    >
+      <div class="container plan__container">
+        <div class="row">
+          <div class="tag-title">We have different plans for you</div>
+          <div class="big-title">
+            It's free! Start now keeping track of your finances
+          </div>
+          <div class="plan__switch header-f">
+            <span>Billed Monthly</span>
+            <label class="switch">
+              <input type="checkbox" checked />
+              <span class="slider round"></span>
+            </label>
+            <span>Billed Yearly</span>
+          </div>
+          <div>(Save up to 40%)</div>
         </div>
+        <div class="plan-advanced__row">
+          <div class="plan-advanced__item free">
+            <div class="plan-type">Free</div>
+            <div class="plan-des">
+              Pricing built for businesses of all sizes.
+            </div>
+            <div class="plan-time">0</div>
+            <div class="plan-benefit">
+              <ul>
+                <li>Unlimited transactions</li>
+                <li>Expenses and Income Charts</li>
+                <li>Create categories for expenses</li>
+                <li>Accounts management</li>
+                <li>Income management</li>
+                <li>Alerts by email</li>
+              </ul>
+            </div>
+            <a class="download-btn-green btn">Purchase Now</a>
+          </div>
+          <div class="plan-advanced__item pro">
+            <div class="plan-type">Professional</div>
+            <div class="plan-des">
+              Pricing built for businesses of all sizes.
+            </div>
+            <div class="plan-time">30¢</div>
+            <div class="plan-benefit">
+              <ul>
+                <li>Unlimited transactions</li>
+                <li>Expenses and Income Charts</li>
+                <li>Create categories for expenses</li>
+                <li>Accounts management</li>
+                <li>Income management</li>
+                <li>Alerts by email</li>
+              </ul>
+            </div>
+            <a class="download-btn-green btn">Purchase Now</a>
+          </div>
+          <div class="plan-advanced__item com">
+            <div class="plan-type">Company</div>
+            <div class="plan-des">
+              Pricing built for businesses of all sizes.
+            </div>
+            <div class="plan-time">499</div>
+            <div class="plan-benefit">
+              <ul>
+                <li>Unlimited transactions</li>
+                <li>Expenses and Income Charts</li>
+                <li>Create categories for expenses</li>
+                <li>Accounts management</li>
+                <li>Income management</li>
+                <li>Alerts by email</li>
+              </ul>
+            </div>
+            <a class="download-btn-green btn">Purchase Now</a>
+          </div>
+        </div>
+        <div class="wanna-join row">
+          Ready to get started? <a class="pri-color">Get in touch</a> or
+          <a class="pri-color" href="">create an account.</a><br />
+          To speak with a success expert, call (+1) 212-946-2707.
+        </div>
+      </div>
     </section>
     <section id="testimonial">
-        <div class="testimonial__container container">
-            <div class="big-title row">
-                Our customers love what we do
+      <div class="testimonial__container container">
+        <div class="big-title row">Our customers love what we do</div>
+        <div class="testimonial__items row">
+          <div class="testimonial__item">
+            <div class="testimonial__review sub-title">
+              The most user friendly and best laid out personal finance app.
+              Love it! After trying several other paid apps I'm happy to end my
+              search here!
+              <br />
+              <br />
+              Great job!
             </div>
-            <div class="testimonial__items row">
-                <div class="testimonial__item">
-                    <div class="testimonial__review sub-title">
-                        The most user friendly and best laid out personal finance app. Love it! After trying several
-                        other paid apps I'm happy to end my search here!
-                        </br>
-                        </br>
-                        Great job!
-                    </div>
-                    <div class="testimonial__profile">
-                        <div class="testimonial__profile-avatar"
-                            style="background-image: url(assets/image/testimonial/per1.jpg);">
-
-                        </div>
-                        <div class="testimonial__profile__info">
-                            <div class="testimonial__profile-name pri-color">Thomas Smith
-                            </div>
-                            <div class="testimonial__profile-role">Finance Director</div>
-                            <div class="testimonial__profile-stars">
-                                <div class="testimonial__profile-rate flaticon flaticon-star"></div>
-                                <div class="testimonial__profile-rate flaticon flaticon-star"></div>
-                                <div class="testimonial__profile-rate flaticon flaticon-star"></div>
-                                <div class="testimonial__profile-rate flaticon flaticon-star"></div>
-                                <div class="testimonial__profile-rate flaticon flaticon-star"></div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="testimonial__profile">
+              <div
+                class="testimonial__profile-avatar"
+                style="background-image: url(assets/image/testimonial/per1.jpg)"
+              ></div>
+              <div class="testimonial__profile__info">
+                <div class="testimonial__profile-name pri-color">
+                  Thomas Smith
                 </div>
-                <div class="testimonial__item">
-                    <div class="testimonial__review sub-title">
-                        The most user friendly and best laid out personal finance app. Love it! After trying several
-                        other paid apps I'm happy to end my search here!
-                        </br>
-                        </br>
-                        Great job!
-                    </div>
-                    <div class="testimonial__profile">
-                        <div class="testimonial__profile-avatar"
-                            style="background-image: url(assets/image/testimonial/per2.jpg);">
-
-                        </div>
-                        <div class="testimonial__profile__info">
-                            <div class="testimonial__profile-name pri-color">Eloise Smith</div>
-                            <div class="testimonial__profile-role">Finance Director</div>
-                            <div class="testimonial__profile-stars">
-                                <div class="testimonial__profile-rate flaticon flaticon-star"></div>
-                                <div class="testimonial__profile-rate flaticon flaticon-star"></div>
-                                <div class="testimonial__profile-rate flaticon flaticon-star"></div>
-                                <div class="testimonial__profile-rate flaticon flaticon-star"></div>
-                                <div class="testimonial__profile-rate flaticon flaticon-star"></div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="testimonial__profile-role">Finance Director</div>
+                <div class="testimonial__profile-stars">
+                  <div
+                    class="testimonial__profile-rate flaticon flaticon-star"
+                  ></div>
+                  <div
+                    class="testimonial__profile-rate flaticon flaticon-star"
+                  ></div>
+                  <div
+                    class="testimonial__profile-rate flaticon flaticon-star"
+                  ></div>
+                  <div
+                    class="testimonial__profile-rate flaticon flaticon-star"
+                  ></div>
+                  <div
+                    class="testimonial__profile-rate flaticon flaticon-star"
+                  ></div>
                 </div>
-                <div class="testimonial__item">
-                    <div class="testimonial__review sub-title">
-                        The most user friendly and best laid out personal finance app. Love it! After trying several
-                        other paid apps I'm happy to end my search here!
-                        </br>
-                        </br>
-                        Great job!
-                    </div>
-                    <div class="testimonial__profile">
-                        <div class="testimonial__profile-avatar"
-                            style="background-image: url(assets/image/testimonial/per3.jpg);">
-
-                        </div>
-                        <div class="testimonial__profile__info">
-                            <div class="testimonial__profile-name pri-color">Eloise Smith</div>
-                            <div class="testimonial__profile-role">Finance Director</div>
-                            <div class="testimonial__profile-stars">
-                                <div class="testimonial__profile-rate flaticon flaticon-star"></div>
-                                <div class="testimonial__profile-rate flaticon flaticon-star"></div>
-                                <div class="testimonial__profile-rate flaticon flaticon-star"></div>
-                                <div class="testimonial__profile-rate flaticon flaticon-star"></div>
-                                <div class="testimonial__profile-rate flaticon flaticon-star"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+              </div>
             </div>
-            <div class="row testimonial__partner">
-                <div class="testimonial__partner__item"
-                    style="background-image: url(assets/image/partner/partner-1.png);">
-                </div>
-                <div class="testimonial__partner__item"
-                    style="background-image: url(assets/image/partner/partner-2.png);">
-                </div>
-                <div class="testimonial__partner__item"
-                    style="background-image: url(assets/image/partner/partner-3.png);">
-                </div>
-                <div class="testimonial__partner__item"
-                    style="background-image: url(assets/image/partner/partner-4.png);">
-                </div>
+          </div>
+          <div class="testimonial__item">
+            <div class="testimonial__review sub-title">
+              The most user friendly and best laid out personal finance app.
+              Love it! After trying several other paid apps I'm happy to end my
+              search here!
+              <br />
+              <br />
+              Great job!
             </div>
-            <div class="row testimonial__sign-up" style="background-image: url(assets/image/content/sign-up-bg.jpg);">
-                <div class="testimonial__sign-up__big-title big-title">
-                    Sign up for UniCorp today!
+            <div class="testimonial__profile">
+              <div
+                class="testimonial__profile-avatar"
+                style="background-image: url(assets/image/testimonial/per2.jpg)"
+              ></div>
+              <div class="testimonial__profile__info">
+                <div class="testimonial__profile-name pri-color">
+                  Eloise Smith
                 </div>
-                <div class="testimonial__sign-up__sub-title sub-title">
-                    From budgets and bills to free credit score and more, you’ll discover the effortless way to stay on
-                    top of it all.
+                <div class="testimonial__profile-role">Finance Director</div>
+                <div class="testimonial__profile-stars">
+                  <div
+                    class="testimonial__profile-rate flaticon flaticon-star"
+                  ></div>
+                  <div
+                    class="testimonial__profile-rate flaticon flaticon-star"
+                  ></div>
+                  <div
+                    class="testimonial__profile-rate flaticon flaticon-star"
+                  ></div>
+                  <div
+                    class="testimonial__profile-rate flaticon flaticon-star"
+                  ></div>
+                  <div
+                    class="testimonial__profile-rate flaticon flaticon-star"
+                  ></div>
                 </div>
-                <div class=""><a class="btn download-btn-blue">Sign Up Now</a></div>
+              </div>
             </div>
+          </div>
+          <div class="testimonial__item">
+            <div class="testimonial__review sub-title">
+              The most user friendly and best laid out personal finance app.
+              Love it! After trying several other paid apps I'm happy to end my
+              search here!
+              <br />
+              <br />
+              Great job!
+            </div>
+            <div class="testimonial__profile">
+              <div
+                class="testimonial__profile-avatar"
+                style="background-image: url(assets/image/testimonial/per3.jpg)"
+              ></div>
+              <div class="testimonial__profile__info">
+                <div class="testimonial__profile-name pri-color">
+                  Eloise Smith
+                </div>
+                <div class="testimonial__profile-role">Finance Director</div>
+                <div class="testimonial__profile-stars">
+                  <div
+                    class="testimonial__profile-rate flaticon flaticon-star"
+                  ></div>
+                  <div
+                    class="testimonial__profile-rate flaticon flaticon-star"
+                  ></div>
+                  <div
+                    class="testimonial__profile-rate flaticon flaticon-star"
+                  ></div>
+                  <div
+                    class="testimonial__profile-rate flaticon flaticon-star"
+                  ></div>
+                  <div
+                    class="testimonial__profile-rate flaticon flaticon-star"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="row testimonial__partner">
+          <div
+            class="testimonial__partner__item"
+            style="background-image: url(assets/image/partner/partner-1.png)"
+          ></div>
+          <div
+            class="testimonial__partner__item"
+            style="background-image: url(assets/image/partner/partner-2.png)"
+          ></div>
+          <div
+            class="testimonial__partner__item"
+            style="background-image: url(assets/image/partner/partner-3.png)"
+          ></div>
+          <div
+            class="testimonial__partner__item"
+            style="background-image: url(assets/image/partner/partner-4.png)"
+          ></div>
+        </div>
+        <div
+          class="row testimonial__sign-up"
+          style="background-image: url(assets/image/content/sign-up-bg.jpg)"
+        >
+          <div class="testimonial__sign-up__big-title big-title">
+            Sign up for UniCorp today!
+          </div>
+          <div class="testimonial__sign-up__sub-title sub-title">
+            From budgets and bills to free credit score and more, you’ll
+            discover the effortless way to stay on top of it all.
+          </div>
+          <div class=""><a class="btn download-btn-blue">Sign Up Now</a></div>
+        </div>
+      </div>
     </section>
     <footer id="footer">
-        <div class="footer__container container">
-            <div class="footer__row row">
-                <div class="footer__col footer__col__uni-corp">
-                    <p>Unicorp</p>
-                    <ul>
-                        <li>112 W 34th St, New York.</li>
-                        <li class="green-color">(+1) 212-946-2707</li>
-                        <li>info@unicorp.com</li>
-                        <li>
-                            <div class="flaticon flaticon-twitter"></div>
-                            <div class="flaticon flaticon-facebook-logotype"></div>
-                            <div class="flaticon flaticon-instagram"></div>
-                        </li>
-                    </ul>
+      <div class="footer__container container">
+        <div class="footer__row row">
+          <div class="footer__col footer__col__uni-corp">
+            <p>Unicorp</p>
+            <ul>
+              <li>112 W 34th St, New York.</li>
+              <li class="green-color">(+1) 212-946-2707</li>
+              <li>info@unicorp.com</li>
+              <li>
+                <div class="flaticon flaticon-twitter"></div>
+                <div class="flaticon flaticon-facebook-logotype"></div>
+                <div class="flaticon flaticon-instagram"></div>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__col footer__col__useful-link">
+            <p>Useful Links</p>
+            <ul>
+              <li class="pri-color">Services</li>
+              <li>About</li>
+              <li>
+                Careers
+                <div class="new-icon">
+                  <p>new</p>
                 </div>
-                <div class="footer__col footer__col__useful-link">
-                    <p>Useful Links</p>
-                    <ul>
-                        <li class="pri-color">Services</li>
-                        <li>About</li>
-                        <li>Careers
-                            <div class="new-icon">
-                                <p>new</p>
-                            </div>
-                        </li>
-                        <li>Blog</li>
-                    </ul>
+              </li>
+              <li>Blog</li>
+            </ul>
+          </div>
+          <div class="footer__col footer__col__products">
+            <p>Products</p>
+            <ul>
+              <li>
+                Apps
+                <div class="new-icon">
+                  <p>new</p>
                 </div>
-                <div class="footer__col footer__col__products">
-                    <p>Products</p>
-                    <ul>
-                        <li>Apps
-                            <div class="new-icon">
-                                <p>new</p>
-                            </div>
-                        </li>
-                        <li>Integrations</li>
-                        <li>Pricing</li>
-                        <li>Request a Demo</li>
-                    </ul>
+              </li>
+              <li>Integrations</li>
+              <li>Pricing</li>
+              <li>Request a Demo</li>
+            </ul>
+          </div>
+          <div class="footer__col footer__col__resources">
+            <p>Resources</p>
+            <ul>
+              <li>Knowledge Base</li>
+              <li>Become a Partner</li>
+              <li>Help Desk</li>
+              <li>
+                Uptime
+                <div class="new-icon discount-icon">
+                  <p>99%</p>
                 </div>
-                <div class="footer__col footer__col__resources">
-                    <p>Resources</p>
-                    <ul>
-                        <li>Knowledge Base</li>
-                        <li>Become a Partner</li>
-                        <li>Help Desk</li>
-                        <li>Uptime
-                            <div class="new-icon discount-icon">
-                                <p>99%</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer__col footer__col__newsletter">
-                    <p>Newsletter</p>
-                    <p>Get everything you need to succeed!</p>
-                    <div class="footer__col__newsletter__form">
-                        <input type="email" class="footer__col__newsletter__email--input" name="" id=""
-                            placeholder="Enter your email">
-                        <a class="download-btn-green btn flaticon flaticon-send"></a>
-                    </div>
-                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__col footer__col__newsletter">
+            <p>Newsletter</p>
+            <p>Get everything you need to succeed!</p>
+            <div class="footer__col__newsletter__form">
+              <input
+                type="email"
+                class="footer__col__newsletter__email--input"
+                name=""
+                id=""
+                placeholder="Enter your email"
+              />
+              <a class="download-btn-green btn flaticon flaticon-send"></a>
             </div>
+          </div>
         </div>
-        <div class="bottom-bar container">
-            <div class="bottom-bar__copyright">
-                ©2020 UniCorp by Viworx-Co. All Rights Reserved.
-            </div>
-            <div class="bottom-bar__terms">
-                <p>Terms of Use</p>
-                <p>Privacy </p>
-                <p>Sitemap</p>
-            </div>
+      </div>
+      <div class="bottom-bar container">
+        <div class="bottom-bar__copyright">
+          ©2020 UniCorp by Viworx-Co. All Rights Reserved.
         </div>
+        <div class="bottom-bar__terms">
+          <p>Terms of Use</p>
+          <p>Privacy</p>
+          <p>Sitemap</p>
+        </div>
+      </div>
     </footer>
 
     <script src="assets/js/main.js"></script>
-</body>
-
+  </body>
 </html>

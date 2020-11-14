@@ -56,11 +56,11 @@
 }
 
 /* wcu__feature-box custom color */
-.lifht-slate-blue {
+.light-slate-blue {
     background-color: rgb(234, 240, 254);
 }
 
-.lifht-slate-blue .flaticon::before {
+.light-slate-blue .flaticon::before {
     color: rgb(88, 129, 233);
 
 }
