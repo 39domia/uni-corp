@@ -5,7 +5,7 @@
 }
 
 .feature__phone-demo>img {
-    max-width: 585px;
+    max-width: 100%;
     position: relative;
     top: -65px;
 }

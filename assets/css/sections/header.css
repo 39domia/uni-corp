@@ -22,7 +22,7 @@
     display: inline;
 }
 
-.nav-icon {
+.nav-icon-pc {
     width: 600px;
     display: grid;
     grid-template-columns: auto auto;
@@ -34,7 +34,7 @@
     
 }
 
-.header__wrapper {
+#header {
     height: 120vh;
     background-size: cover;
     background-position: center;
@@ -86,4 +86,7 @@
 }
 .index-app-btn>a {
     margin-right: 30px;
+}
+.header__navbar-icon {
+    display: none;
 }

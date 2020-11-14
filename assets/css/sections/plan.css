@@ -42,8 +42,13 @@
 .plan-advanced__row {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 0 30px;
+    grid-gap: 30px 30px;
     text-align: center;
+
+}
+.plan-advanced__row div{
+    margin-bottom: 30px;
+
 }
 
 .plan-type {

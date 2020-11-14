@@ -96,7 +96,8 @@
     border-radius: 5px;
     background-color: rgb(248, 250, 255);
     box-shadow: 0px 20px 70px 0px rgba(209, 209, 209, 0.4);
-    padding-left: 100px;
+    padding-left: 7vw;
+    padding-right: 7vw;
     background-size: cover;
 }
 .testimonial__sign-up__big-title {
