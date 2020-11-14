@@ -71,6 +71,11 @@
   #header .header-row > .btn {
     display: none;
   }
+  .header-row {
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+  }
+
   .header__nav-table-list > .btn {
     display: flex;
   }
@@ -116,6 +121,7 @@
 
   .footer__row {
     grid-template-columns: 1fr 1fr;
+
   }
 
   .footer__col__uni-corp,
