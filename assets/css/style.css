@@ -8,40 +8,42 @@
 @import "sections/footer.css";
 @import "responsive.css";
 
-
 :root {
-    --header-font: "Montserrat";
-    --header-font-md: "Montserrat Medium";
-    --contain-font: "Arimo";
-    --primary-color: rgb(74, 131, 251);
-    --contain-color: rgb(116, 132, 148);
-    --title-color: rgb(7, 30, 87);
-    --green-color: rgb(45, 202, 115);
-    --footer-background-color: rgb(38, 50, 56);
+  --header-font: "Montserrat";
+  --header-font-md: "Montserrat Medium";
+  --contain-font: "Arimo";
+  --primary-color: rgb(74, 131, 251);
+  --contain-color: rgb(116, 132, 148);
+  --title-color: rgb(7, 30, 87);
+  --green-color: rgb(45, 202, 115);
+  --footer-background-color: rgb(38, 50, 56);
 }
 
 /* Reset CSS */
 * {
-    padding: 0;
-    margin: 0;
-    border: none;
-    /* font-size: 100%; */
-    box-sizing: border-box;
-    font-family: var(--contain-font);
+  padding: 0;
+  margin: 0;
+  border: none;
+  /* font-size: 100%; */
+  box-sizing: border-box;
+  font-family: var(--contain-font);
 }
-
+/* *:active {
+  color: white;
+  background-color: var(--primary-color);
+} */
 .header-f {
-    font-family: var(--header-font);
+  font-family: var(--header-font);
 }
 .green-color {
-    color: var(--green-color);
+  color: var(--green-color);
 }
 .pad-mar-0 {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 .pri-color {
-    color: var(--primary-color) !important;
+  color: var(--primary-color) !important;
 }
 /* ____________________________ */
 /* 
@@ -51,141 +53,141 @@ content font: muli > arimo
 */
 
 .container {
-    max-width: 1170px;
-    width: 100%;
-    margin: 0 auto;
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .tag-title {
-    font-size: 14px;
-    font-family: var(--header-font);
-    color: var(--primary-color);
-    text-transform: uppercase;
-    line-height: 1.2;
+  font-size: 14px;
+  font-family: var(--header-font);
+  color: var(--primary-color);
+  text-transform: uppercase;
+  line-height: 1.2;
 }
 
 .big-title {
-    font-size: 42px;
-    font-family: var(--header-font-md);
-    color: var(--title-color);
-    line-height: 1.2;
-    margin: 35px 0 50px 0;
+  font-size: 42px;
+  font-family: var(--header-font-md);
+  color: var(--title-color);
+  line-height: 1.2;
+  margin: 35px 0 50px 0;
 }
 
 .sub-title {
-    font-size: 16px;
-    color: var(--contain-color);
-    line-height: 1.625;
+  font-size: 16px;
+  color: var(--contain-color);
+  line-height: 1.625;
 }
 
 .flaticon::before {
-    margin: 0;
-    font-size: 30px;
+  margin: 0;
+  font-size: 30px;
 }
 
 .btn {
-    border-radius: 5px;
-    width: 180px;
-    height: 54px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: capitalize;
-    font-size: 15px;
-    font-family: var(--header-font-md);
+  border-radius: 5px;
+  width: 180px;
+  height: 54px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-family: var(--header-font-md);
 }
 
 .new-icon {
-    position: relative;
-    border-radius: 2px;
-    background-color: var(--primary-color);
-    display: inline-flex;
-    width: 36px;
-    height: 24px;
-    justify-content: center;
-    text-align: center;
-    top: 8px;
-    margin-left: 4px;
+  position: relative;
+  border-radius: 2px;
+  background-color: var(--primary-color);
+  display: inline-flex;
+  width: 36px;
+  height: 24px;
+  justify-content: center;
+  text-align: center;
+  top: 8px;
+  margin-left: 4px;
 }
-.new-icon>p {
-    position: absolute;
-    color: white;
-    font-size: 10px;
-    text-transform: uppercase;
+.new-icon > p {
+  position: absolute;
+  color: white;
+  font-size: 10px;
+  text-transform: uppercase;
 }
 .discount-icon {
-    background-color: var(--green-color);
+  background-color: var(--green-color);
 }
 
 /* Swtich  */
 
 .switch {
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
 }
 
 .switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
+  opacity: 0;
+  width: 0;
+  height: 0;
 }
 
 .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    -webkit-transition: .4s;
-    transition: .4s;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .slider:before {
-    position: absolute;
-    content: "";
-    height: 30px;
-    width: 30px;
-    left: 2px;
-    bottom: 2px;
-    background-color: white;
-    -webkit-transition: .4s;
-    transition: .4s;
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 30px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
-input:checked+.slider {
-    background-color:var(--primary-color);
+input:checked + .slider {
+  background-color: var(--primary-color);
 }
 
-input:focus+.slider {
-    box-shadow: 0 0 1px var(--primary-color);
+input:focus + .slider {
+  box-shadow: 0 0 1px var(--primary-color);
 }
 
-input:checked+.slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
 }
 
 /* Rounded sliders */
 .slider.round {
-    border-radius: 34px;
+  border-radius: 34px;
 }
 
 .slider.round:before {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 /* End switch */
