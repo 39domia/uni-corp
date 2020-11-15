@@ -126,7 +126,10 @@
   justify-content: space-between;
   align-items: center;
   display: flex;
+  border-bottom: 1px solid;
+  border-color: rgba(116, 132, 148, 0.2);
 }
+
 .header__nav-table-list li:first-child i {
   font-size: 2em;
 }
@@ -156,9 +159,10 @@
 .header__nav-menu {
   display: none;
 }
-.header__nav-table-list .btn {
+.header__nav-table .header__nav-table-btn {
   display: none;
   margin-top: 20px;
+
 }
 @keyframes fadeIn {
   from {

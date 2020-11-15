@@ -1,7 +1,4 @@
 @media screen and (max-width: 1024px) {
-  /* .container {
-    max-width: 925px !important;
-  } */
   .container {
     max-width: 85% !important;
   }
@@ -11,7 +8,6 @@
   }
 
   .testimonial__items {
-    /* display: grid; */
     grid-template-columns: 1fr 1fr;
     grid-gap: 30px;
   }
@@ -21,21 +17,15 @@
   .header__nav-menu {
     display: block;
     font-size: 3em;
-    /* height: 100%; */
     color: var(--primary-color);
   }
 }
 
-@media screen and (max-width: 768px) {
-  /* .container {
-    max-width: 700px !important;
-  } */
+@media screen and (max-width: 769px) {
 
-  .feature__row {
-    display: block;
-  }
-
-  .adv .container div:first-child {
+  .feature__row,
+  .adv .container div:first-child,
+  .adv .container {
     display: block;
   }
 
@@ -45,10 +35,6 @@
 
   .adv {
     background-image: none !important;
-  }
-
-  .adv .container {
-    display: block;
   }
 
   .adv .adv__description {
@@ -66,7 +52,23 @@
     grid-gap: 30px;
   }
 }
-
+@media screen and (max-width: 600px) {
+  .plan-advanced__row,
+  .testimonial__items,
+  .wcu__row__feature-item {
+    display: block;
+  }
+  .testimonial__items > div {
+    margin-bottom: 30px;
+  }
+  .why-choose-us .wcu__row__feature-item .wcu__feature-box {
+    margin-bottom: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 @media screen and (max-width: 425px) {
   #header .header-row > .btn {
     display: none;
@@ -75,37 +77,32 @@
     grid-template-columns: auto auto;
     justify-content: space-between;
   }
-
-  .header__nav-table-list > .btn {
-    display: flex;
+  #header .index-app-btn > a > img {
+    margin-bottom: 20px;
   }
-  .wcu__row--title {
-    display: block;
-    /* grid-template-rows: 50% 50%;
-    grid-template-columns: none; */
+  #header .down-arrow {
+    margin-top: 30px;
   }
-  .why-choose-us .wcu__row__feature-item {
-    display: block;
-  }
-
-  .why-choose-us .wcu__row__feature-item .wcu__feature-box {
-    margin-bottom: 30px;
-    text-align: center;
+  .header__nav-table > .header__nav-table-btn {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-
-  .plan-advanced__row {
-    display: block;
+  .header__nav-table-list li:last-child {
+    padding-bottom: 20px;
+    border-bottom: 1px solid;
+    border-color: rgba(116, 132, 148, 0.2);
   }
-
+  .wcu__row--title,
+  .why-choose-us .wcu__row__feature-item,
   .testimonial__items {
     display: block;
   }
 
-  .testimonial__items > div {
-    margin-bottom: 30px;
+  .wcu__arrow {
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
   }
 
   .testimonial__partner {
@@ -147,12 +144,7 @@
   #header .header__sub-title {
     margin-bottom: 50px;
   }
-  #header .index-app-btn > a > img {
-    margin-bottom: 20px;
-  }
-  #header .down-arrow {
-    margin-top: 30px;
-  }
+
   .footer__row {
     display: block;
   }
@@ -165,5 +157,8 @@
   }
   #footer .bottom-bar .bottom-bar__terms {
     flex-direction: column;
+  }
+  #footer .bottom-bar .bottom-bar__terms p {
+    padding-bottom: 20px;
   }
 }
