@@ -42,7 +42,7 @@
     margin-bottom: 60px;
 }
 
-.feature .dot {
+#feature .dot {
     text-align: center;
     letter-spacing: 5px;
     font-size: 30px;
