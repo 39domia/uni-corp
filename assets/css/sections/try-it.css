@@ -1,33 +1,27 @@
 #try-it {
-    /* height: 100vh; */
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-}
-
-.download-btn-green {
-    background-color: var(--green-color);
-
+  /* height: 100vh; */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .try-it__row {
-    padding: 120px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+  padding: 120px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .try-it__title {
-    margin-top: 0 !important;
-    text-align: center;
-
+  margin-top: 0 !important;
+  text-align: center;
 }
 
 .try-it__sub-title {
-    margin: 5px 0 70px 0 !important;
-    font-size: 20px !important;
-    max-width: 500px;
-    text-align: center;
+  margin: 5px 0 70px 0 !important;
+  font-size: 20px !important;
+  max-width: 500px;
+  text-align: center;
 }
