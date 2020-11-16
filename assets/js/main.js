@@ -23,7 +23,9 @@ function createAccordion() {
     });
   }
 }
-document.getElementById("header__nav-table-list").addEventListener("click", turnOfOverlay);
+document
+  .getElementById("header__nav-table-list")
+  .addEventListener("click", turnOfOverlay);
 function turnOfOverlay(e) {
   let navCheckbox = document.getElementById("header__nav-checkbox");
   if (e.target.localName == "a") {
@@ -31,9 +33,27 @@ function turnOfOverlay(e) {
   }
 }
 
+window.onscroll = function () {
+  scrollFunction();
+};
+function scrollFunction() {
+  let headerRow = document.getElementsByClassName("header-row");
+  if (
+    document.body.scrollTop > 100 ||
+    document.documentElement.scrollTop > 100
+  ) {
+    headerRow[0].style.height = "70px";
+    headerRow[0].style.transition = "0.4s";
+  } else {
+    headerRow[0].style.height = "100px";
+    headerRow[0].style.transition = "0.4s";
+  }
+}
+
 function documentReady() {
   init();
   createAccordion();
+  scrollFunction();
 }
 
 documentReady();
