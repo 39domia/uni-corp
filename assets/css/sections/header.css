@@ -48,7 +48,6 @@
   display: inline;
 }
 
-
 #header {
   height: 120vh;
   background-size: cover;
@@ -186,4 +185,19 @@
   to {
     opacity: 1;
   }
+}
+
+.header-fixed {
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  z-index: 3;
+}
+.header-fixed .header-row {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+.fake-class {
+  height: 100px;
 }
