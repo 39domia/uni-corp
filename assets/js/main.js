@@ -38,6 +38,7 @@ window.onscroll = function () {
 };
 function scrollFunction() {
   let headerRow = document.getElementsByClassName("header-row");
+
   if (
     document.body.scrollTop > 100 ||
     document.documentElement.scrollTop > 100
@@ -47,6 +48,15 @@ function scrollFunction() {
   } else {
     headerRow[0].style.height = "100px";
     headerRow[0].style.transition = "0.4s";
+  }
+  if (
+    document.body.scrollTop > 500 ||
+    document.documentElement.scrollTop > 500
+  ) {
+
+  }
+  else{
+
   }
 }
 
