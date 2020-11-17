@@ -11,7 +11,7 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 30px;
   }
-  #header .nav-icon-pc {
+  .nav-icon-pc {
     display: none;
   }
   .header__nav-menu {
@@ -72,7 +72,7 @@
   }
 }
 @media screen and (max-width: 426px) {
-  #header .header-row > .btn {
+  .header-row > .btn {
     display: none;
   }
   .header-row {

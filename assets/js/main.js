@@ -53,10 +53,7 @@ function scrollFunction() {
     document.body.scrollTop > 500 ||
     document.documentElement.scrollTop > 500
   ) {
-
-  }
-  else{
-
+  } else {
   }
 }
 
